@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sample Selenium Cucumber POC">
+  <test  name="Cucumber with TestNG Test">
+    <classes>
+      <class name="bddselenium.runner.TestNGRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
